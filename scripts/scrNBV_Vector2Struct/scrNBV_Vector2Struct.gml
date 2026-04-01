@@ -1,3 +1,10 @@
+/*
+ * nbvector2 (v1.0.0) - A collection of math data structures for GameMaker.
+ * 
+ * created by nandbolt
+ * 
+*/
+
 /// @func   Vector2(x, y);
 /// @param {Real} x
 /// @param {Real} y
