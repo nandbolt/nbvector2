@@ -25,6 +25,7 @@
   },
   "name":"nbvector2",
   "resources":[
+    {"id":{"name":"scrNBV_Matrix2x2Struct","path":"scripts/scrNBV_Matrix2x2Struct/scrNBV_Matrix2x2Struct.yy",},},
     {"id":{"name":"scrNBV_Vector2Struct","path":"scripts/scrNBV_Vector2Struct/scrNBV_Vector2Struct.yy",},},
     {"id":{"name":"scrNBV_Vector3Struct","path":"scripts/scrNBV_Vector3Struct/scrNBV_Vector3Struct.yy",},},
   ],
