@@ -1,5 +1,5 @@
 /*
- * nbvector2 (v1.0.0) - A collection of math data structures for GameMaker.
+ * nbvector2 (v1.0.1) - A collection of math data structures for GameMaker.
  * 
  * created by nandbolt
  * 
@@ -20,7 +20,7 @@ function Vector2(_x=0, _y=0) constructor
     /// @param {Real} x
     /// @param {Real} y
     /// @desc Sets the vector's coordinates.
-    static set = function(_x, _y)
+    static set = function(_x=0, _y=0)
     {
         x = _x;
         y = _y;

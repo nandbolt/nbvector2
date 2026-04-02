@@ -14,7 +14,7 @@ function Vector3(_x=0, _y=0, _z=0) : Vector2(_x, _y) constructor
     /// @param {Real} y
     /// @param {Real} z
     /// @desc Sets the vector's coordinates.
-    static set = function(_x, _y, _z)
+    static set = function(_x=0, _y=0, _z=0)
     {
         x = _x;
         y = _y;
