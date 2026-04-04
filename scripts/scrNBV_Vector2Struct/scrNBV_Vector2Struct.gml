@@ -1,5 +1,5 @@
 /*
- * nbvector2 (v1.0.1) - A collection of math data structures for GameMaker.
+ * nbvector2 (v1.0.2) - A collection of math data structures for GameMaker.
  * 
  * created by nandbolt
  * 
@@ -113,6 +113,13 @@ function Vector2(_x=0, _y=0) constructor
     static magnitude_squared = function()
     {
         return x * x + y * y;
+    }
+    
+    /// @func   angle_degrees();
+    /// @desc Returns the angle of the vector in degrees.
+    static angle_degrees = function()
+    {
+        return point_direction(0, 0, x, y);
     }
     
     /// @func   is_zero();
